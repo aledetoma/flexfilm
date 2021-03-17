@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "scss/base"
+		},
+		{
+			"path": "scss/components"
+		},
+		{
+			"path": "scss/layout"
+		},
+		{
+			"path": "scss/pages"
+		}
+	]
+}

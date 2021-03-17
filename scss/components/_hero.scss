@@ -1,0 +1,23 @@
+.hero {
+    background: url('../../fotos/hero-sm.jpg') no-repeat center/cover;
+
+    height: 100vh;
+
+    display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    text-align: center;
+
+    @media only screen and (min-width: 768px) {
+        background: url('../../fotos/hero-lg.jpg') no-repeat center/cover;
+    }
+
+    a {
+        margin-top: 1em;
+        display: block;
+        background: $color-sec;
+        padding: .75em 1.5em;
+    }
+
+}
